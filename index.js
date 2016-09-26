@@ -3,12 +3,14 @@ const ReactDOM = require('react-dom');
 
 const RegistrationForm = require('./components/RegistrationForm');
 const Webpage = require('./components/Webpage');
+const FillerText = require('./components/FillerText');
 
 ReactDOM.render(
   (
     <div>
       <RegistrationForm />
       <Webpage />
+      <FillerText />
     </div>
   ),
   document.getElementById('main')
